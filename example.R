@@ -61,7 +61,7 @@ BICL <- function(par){
 }
 #########################################
 # Estimating the parameters: define a starting point 'ini' 
-# for the optimization algorithm; bi_cl use an exponential  
+# for the optimization algorithm; bi_cl uses an exponential  
 # parameterization to guarantee positivity of the estimates
 #########################################
 ini = log(c(2,0.1,0.01)); 
