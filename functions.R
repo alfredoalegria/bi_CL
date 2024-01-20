@@ -11,7 +11,7 @@ corr <- function(choice,x,range){
 ####################################################
 # The 'partition' function returns two lists of indices, 'set1' and 'set2', 
 # corresponding to labels 'a' and 'b' in the formulation of the method. The 
-# inputs cx and cy corespond to the x and y coord. of the original grid, resp.
+# inputs cx and cy correspond to the x and y coord. of the original grid, resp.
 ####################################################
 partition <- function(m,cx,cy){
 
